@@ -1,6 +1,6 @@
 # 🎓 The Socratic Spark: Independent AI Learning Assistant
 
-> 🛠️ **Active Development / Work in Progress:** This project is actively being developed as part of an iterative learning cycle. The core architecture is live, and structural optimizations for advanced agent evaluation pipelines are currently underway. See the [Future Roadmap](#%EF%B8%8F-future-roadmap-work-in-progress) section below for upcoming releases.
+> 🛠️ **Active Development / Work in Progress:** This project is actively being developed as part of an iterative learning cycle. The core architecture is live, and structural optimizations for advanced agent evaluation pipelines are currently underway. See the [Future Roadmap](#future-roadmap-work-in-progress) section below for upcoming releases.
 
 The Socratic Spark is an autonomous, state-driven educational agent designed to guide students through complex concepts using pedagogical inquiry. Unlike standard QA chatbots that immediately provide answers, this agent utilizes behavioral engineering to break down topics into step-by-step learning milestones, evaluating student comprehension dynamically.
 
