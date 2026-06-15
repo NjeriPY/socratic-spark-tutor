@@ -4,7 +4,7 @@
 
 The Socratic Spark is an autonomous, state-driven educational agent designed to guide students through complex concepts using pedagogical inquiry. Unlike standard QA chatbots that immediately provide answers, this agent utilizes behavioral engineering to break down topics into step-by-step learning milestones, evaluating student comprehension dynamically.
 
- **Live Application:** [Paste your Streamlit Cloud Link Here]
+ **Live Application:** [(https://socratic-spark-tutor-9grkbykcvexlsfxdhbejut.streamlit.app/)]
 
 ---
 
