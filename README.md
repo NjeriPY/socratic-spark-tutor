@@ -3,7 +3,7 @@
 >![Status: Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-orange?style=flat-square&logo=github)
 >![Stage: MVP v1.0](https://img.shields.io/badge/Stage-MVP%20v1.0-blue?style=flat-square)
 
-> 🛠️ **Active Development / Work in Progress:** This project is actively being developed as part of an iterative learning cycle. The core architecture is live, and structural optimizations for advanced agent evaluation pipelines are currently underway. See the [Future Roadmap](#future-roadmap-work-in-progress) section below for upcoming releases.
+> 🛠️ **Active Development / Work in Progress:** This project is actively being developed as part of an iterative learning cycle. The core architecture is live, and structural optimizations for advanced agent evaluation pipelines are currently underway.
 
 
 The Socratic Spark is an autonomous, state-driven educational agent designed to guide students through complex concepts using pedagogical inquiry. Unlike standard QA chatbots that immediately provide answers, this agent utilizes behavioral engineering to break down topics into step-by-step learning milestones, evaluating student comprehension dynamically.
@@ -36,11 +36,3 @@ To prevent prompt inflation and excessive token consumption, the system integrat
 * **Environment Management:** Python-dotenv (OS-decoupled key architecture)
 
 ---
----
-
-##  Future Roadmap (Work in Progress)
-
-The Socratic Spark is an actively developing project. Upcoming optimization iterations include:
-* **Pedagogical Evaluation Step:** Migrating from a single LLM generation call to an explicit **Evaluator-Optimizer pipeline** that grades user understanding before crafting the next question.
-* **Granular State Variables:** Transitioning from an unstructured conversation history array to explicit state flags tracking specific metrics (e.g., `student_frustration_index`, `concept_mastery_score`).
-* **UI/UX Refinements:** Enhancing the visual layout with dynamic progress bars to map a student's journey along a learning path.
