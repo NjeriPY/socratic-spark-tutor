@@ -8,7 +8,7 @@
 
 The Socratic Spark is an autonomous, state-driven educational agent designed to guide students through complex concepts using pedagogical inquiry. Unlike standard QA chatbots that immediately provide answers, this agent utilizes behavioral engineering to break down topics into step-by-step learning milestones, evaluating student comprehension dynamically.
 
- **Live Application:** https://socratic-spark-tutor-9grkbykcvexlsfxdhbejut.streamlit.app/
+**Live Application:** [The Socratic Spark](https://socratic-spark-tutor-9grkbykcvexlsfxdhbejut.streamlit.app/]) 
 
 ---
 
@@ -36,3 +36,12 @@ To prevent prompt inflation and excessive token consumption, the system integrat
 * **Environment Management:** Python-dotenv (OS-decoupled key architecture)
 
 ---
+
+## Project Origins & Evolution
+
+The Socratic Spark didn't start in an IDE—it started as a conceptual prompt experiment inside Gemini. 
+
+* **Phase 1 (The Spark):** Began as a specialized prompt engineered to force an LLM into a strict pedagogical role rather than a direct-answer machine. You can view the original concept exploration here: [Gemini Prototype Conversation](https://gemini.google.com/share/1cd93c1adcde)
+* **Phase 2 (The Script):** Transitioned into a local Python script to test data structures, timeline mechanics, and terminal-based interactions.
+* **Phase 3 (The App):** Built out into a full Streamlit interface to manage system state and web-search client boundaries, now actively deployed to the cloud.
+* **Phase 4 (The Horizon):** Actively evolving to include advanced multi-agent evaluation frameworks and granular user metrics.
