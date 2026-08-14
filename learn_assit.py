@@ -56,7 +56,7 @@ if prompt := st.chat_input("Your answer or topic..."):
         
         try:
             response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model='openai/gpt-oss-120b',
                 messages=[{"role": "system", "content": system_prompt}] + st.session_state.messages
             )
             full_response = response.choices[0].message.content
